@@ -1,0 +1,200 @@
+/* 通用样式 */
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    min-width: 1160px;
+    max-height: 100vh;
+}
+
+ul,ol {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 页面头部样式 */
+/* logo部分 */
+header>div {
+    padding: 0 15%;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    height: 40px;
+    float: left;
+}
+
+.logo p {
+    padding-left: 4px;
+    line-height: 40px;
+}
+
+.logo p span {
+    color: #0395c0;
+}
+
+/* 导航栏 */
+nav {
+    float: right;
+    line-height: 40px;
+}
+
+nav li a {
+    padding: 20px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.selected a{
+    color: #0395c0;
+}
+
+.business-case {
+    clear: both;
+    height: 200px;
+    background: url(../../image/home.jpeg) no-repeat;
+    color: #fff;
+    background-size: 100%;
+}
+
+.business-case p {
+    position: relative;
+    height: 40px;
+    top: calc(50% - 20px);
+    text-align: left;
+}
+
+.small {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+/* 内容区样式 */
+main {
+    min-width: 720px;
+    padding: 0 15%;
+    background-color: #cbddd4;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+main ul li {
+    background: #fff;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #ccc;
+    min-width: 210px;
+    margin-top: 40px;
+}
+
+main img {
+    width: 210px;
+    height: 200px;
+}
+
+main ul li span {
+    display: block;
+    color: #979797;
+    font-size: 12px;
+}
+
+.case4 {
+    margin: 40px 0;
+}
+
+/* 侧边框 */
+aside {
+    position: fixed;
+    right: 20px;
+    top: 37%;
+    
+}
+
+aside ol {
+    background-color: #008eff;
+    display: block;
+}
+
+aside ol li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+}
+
+.myimg {
+    transform: rotate(-90deg);
+    height: 39px;
+    border-bottom-color: #008eff;
+}
+
+/* 尾部样式 */
+footer {
+    color: #fff;
+    background: #333;
+    font-size: 12px;
+    padding-top: 40px;
+}
+
+table {
+    padding: 0 15%;
+    width: 100%;
+    cursor: pointer;
+}
+
+th {
+    border-right: 2px solid;
+}
+
+th:first-child {
+    border-left: 2px solid;
+}
+
+tbody td {
+    padding: 5px 0;
+}
+
+.mytbody td {
+    padding-top: 30px;
+}
+
+.lg {
+    line-height: 40px;
+    background-color: #111;
+}
+
+footer p {
+    padding:  40px 0 10px 0;
+}
+
+a:hover {
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+th:hover, td:hover {
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+main ul li:hover {
+    text-shadow: 1px 1px 1px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    cursor: pointer;
+}
